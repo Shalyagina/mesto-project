@@ -1,0 +1,20 @@
+.profile {
+    max-width: 880px;
+    margin: 40px auto 0;
+    color: white;
+    display: grid;
+    grid-template-columns: minmax(min-content, max-content) 3fr 2fr; 
+    grid-template-rows: minmax(min-content, max-content);  
+    column-gap: 30px;
+    justify-items: flex-start;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 750px){
+    .profile {
+       width: 100%;
+       margin-top: 42px;
+       grid-template-columns: 1fr; 
+       grid-template-rows: minmax(min-content, max-content);       
+    }
+}

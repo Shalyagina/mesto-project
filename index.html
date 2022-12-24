@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="stylesheet" href="./page/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Место</title>
+  </head>
+  <body class="page">
+    <header class="header">
+        <img class="header__logo" src="./image/logo.svg" alt="Место">
+        <img class="header__bottom-line" src="./image/Line.svg" alt="линия">
+    </header>
+    <main class="content">
+        <section class="profile">
+            <img class="profile__avatar" src="./image/avatar.jpg" alt="Аватар">
+            <div class="profile__info-block">
+              <h1 class="profile__name">Жак-Ив Кусто</h1>
+              <button class="profile__edit-button"></button>
+              <p class="profile__subscribe">Исследователь океана</p>
+            </div>
+            <button class="profile__add-button"></button>
+        </section>   
+        <section class="elements">
+          <article class="element">
+            <img class="element__image" src="./image/amazon.jpg" alt="Амазонка">
+            <h2 class="element__name">Амазонка</h2>
+            <button class="element__like"></button>            
+          </article>
+          <article class="element">
+            <img class="element__image" src="./image/malasya.jpg" alt="Малайзия">
+            <h2 class="element__name">Малайзия</h2>
+            <button class="element__like"></button>
+          </article>
+          <article class="element">
+            <img class="element__image" src="./image/Maracas_Bay.jpg" alt="Маракас">
+            <h2 class="element__name">Маракас Бэй</h2>
+            <button class="element__like"></button>
+          </article>
+          <article class="element">
+            <img class="element__image" src="./image/underwater.jpg" alt="Под водой">
+            <h2 class="element__name">Подводный мир</h2>
+            <button class="element__like"></button>
+          </article>
+          <article class="element">
+            <img class="element__image" src="./image/king_penguins.jpg" alt="Пингвины">
+            <h2 class="element__name">Королевские пингвины</h2>
+            <button class="element__like"></button>
+          </article>
+          <article class="element">
+            <img class="element__image" src="./image/Panama.jpg" alt="Панама">
+            <h2 class="element__name">Панама</h2>
+            <button class="element__like"></button>
+          </article>     
+        </section>
+    </main>   
+    <footer class="footer">&#169;&nbsp;2022 Mesto Russia</footer>
+    <section class="popup popup_opened"> 
+      <form class="popup__container">
+        <button class="popup__button-close"></button>
+        <h2 class="popup__title">Редактировать профиль</h2>
+        <fieldset class="popup__input-container">
+          <input type="text" class="popup__input-container_name" placeholder="Жак-Ив Кусто"
+          name="name" value="Жак-Ив Кусто">
+          <input type="text" class="popup__input-container_subscribe" 
+          placeholder="Исследователь океана" name="subsribe" value="Исследователь океана"> 
+        </fieldset>
+        <button type="submit" class="popup__button-save" value="Сохранить">Сохранить</button>
+      </form>
+    </section>   
+  </body>
+</html>

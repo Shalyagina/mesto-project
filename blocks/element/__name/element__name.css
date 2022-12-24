@@ -1,0 +1,17 @@
+.element__name {
+    margin: 0;
+    padding-left: 21px;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+    box-sizing: border-box;
+    grid-area: name;
+    align-self: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;   
+}
+
+.element__name:hover {
+    opacity: .5;
+}

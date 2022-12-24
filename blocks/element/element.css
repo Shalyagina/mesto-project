@@ -1,0 +1,15 @@
+.element {
+    max-width: 282px;
+    min-height: 361px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: 282px auto;
+    grid-template-areas: 
+    "image image"
+    "name like";
+    margin: 0;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;  
+}
