@@ -8,13 +8,21 @@
     column-gap: 30px;
     justify-items: flex-start;
     box-sizing: border-box;
+    border: 1px solid rebeccapurple;
+}
+
+@media screen and (max-width: 950px){
+    .profile {
+        margin: 40px 27px 0;
+    }
 }
 
 @media screen and (max-width: 750px){
     .profile {
-       width: 100%;
+       max-width: 282px;
        margin-top: 42px;
        grid-template-columns: 1fr; 
-       grid-template-rows: minmax(min-content, max-content);       
+       grid-template-rows: minmax(min-content, max-content); 
+       margin: 38px auto 0;    
     }
 }

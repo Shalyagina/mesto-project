@@ -4,10 +4,6 @@
     margin: 0;
 }
 
-.profile__avatar:hover {
-    opacity: .5;
-}
-
 @media screen and (max-width: 750px){
     .profile__avatar{
         justify-self: center;
