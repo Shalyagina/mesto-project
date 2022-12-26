@@ -9,7 +9,7 @@
     text-overflow: ellipsis;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 750px){
     .profile__subscribe {
         font-size: 14px;
         line-height: 17px;
