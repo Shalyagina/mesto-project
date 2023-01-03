@@ -13,4 +13,4 @@
 ## footer ##
 раздел сайта, содержащий указание на дату создания и название проекта
 
-[ссылка на проект](https://github.com/Shalyagina/mesto-project.git)
+[ссылка на проект](https://Shalyagina.github.io/mesto-project)
